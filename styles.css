@@ -1,0 +1,147 @@
+.title-page {
+    margin-top: 100px;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+}
+
+img {
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.center-circle1 {
+    background: #595cff;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.center-circle2 {
+    background: #FF7A59;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.center-circle3 {
+    background: #ffbd59;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.title-name {
+   margin-top: 30px;
+   font-family: 'Poppins';
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 29px;
+   text-align: center;
+   color: #020202;
+}
+
+.subtitle-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #424242;
+}
+
+.slider-arrow {
+    cursor: pointer;
+}
+
+.modalContainer {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 50px;
+    margin: auto;
+    width: 770px;
+    height: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: none;
+}
+
+.show {
+    pointer-events: auto;
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.redTitle {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F7413E;
+}
+
+.nameTitle {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #020841;
+}
+
+.nameSubtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #828282;
+}
+
+.atributesPractitioner {
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #020841;
+}
+
+.close-button {
+    background-color: #FFFFFF;
+    width: 30px;
+    border: none;
+    justify-content: end;
+}
+
+

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Author CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/c5af66f177.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;800;900&display=swap" rel="stylesheet">   
+
+    <title>Nuestros Practitioners</title>
+  </head>
+  
+  <body>
+
+    <div class="container d-flex title-page">
+        <h1 class="row">Conoce a nuestros Practitioners</h1>
+    </div> 
+    <section class="container mt-5" id="sectionCards">
+        <div class="row justify-content-between">
+            <i class="col-1 my-auto fa-solid fa-circle-arrow-left slider-arrow" id="before"></i>
+
+            <!-- Card1 -->
+            <div class="col-3" id="card1">
+                <img src="assets/img/person1.png" alt="Heidi Uchiyama" class="center-circle1" id="openModal1">
+                <h2 class="title-name">Heidi Uchiyama <i class="fa-brands fa-linkedin"></i></h2>
+                <p class="subtitle-name">Founder en Beta Lab</p>
+            </div>
+
+            <!-- Card2 -->
+            <div class="col-3" id="card2">
+                <img src="assets/img/person2.png" alt="Patricia Beltran" class="center-circle2">
+                <h2 class="title-name">Patricia Beltran <i class="fa-brands fa-linkedin"></i></h2>
+                <p class="subtitle-name">Design y Experience Lead en Tunki</p>
+            </div>
+
+            <!-- Card3 -->
+            <div class="col-3" id="card3">
+                <img src="assets/img/person3.png" alt="Heidi Uchiyama" class="center-circle3">
+                <h2 class="title-name">Heidi Uchiyama <i class="fa-brands fa-linkedin"></i></h2>
+                <p class="subtitle-name">Founder en Beta Lab</p>
+            </div>
+
+            <i class="col-1 my-auto fa-solid fa-circle-arrow-right slider-arrow" id="next"></i>
+            
+        </div>
+    </section>
+
+    <!-- Modal1 -->
+    <div class="container modalContainer" id="modalContainer">
+        <div class="row justify-content-between Modal1">
+            <img src="assets/img/fullperson1.jpg" alt="Heidi Uchiyama" class="col-3 imgModal">
+            <div class="col-7 my-auto">
+                <p class="redTitle">PRACTITIONER</p>
+                <h2 class="nameTitle">Heidi Uchiyama <i class="fa-brands fa-linkedin"></i></h2>
+                <p class="nameSubtitle">Founder en Beta Lab</p>
+                <div class="row">
+                    <p class="atributesPractitioner col-4 py-2"><i class="fa-solid fa-location-dot"></i>Lima, Peru</p>
+                    <p class="atributesPractitioner col-5 py-2 mx-3"><i class="fa-solid fa-briefcase"></i>UX - Service design</p>
+                </div>
+            </div>
+            <div class="col-1">
+                <button class="close-button col-12" aria-label="Close alert" type="button" data-close id="closeButton">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        </div>
+    </div>    
+
+
+    <script src="./js/modal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+   
+  </body>
+</html>
